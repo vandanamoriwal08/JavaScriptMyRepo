@@ -1,0 +1,28 @@
+{
+  "name": "banking-credit-card-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation testing framework for Banking domain Credit Card postlogin functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "install-browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "banking",
+    "credit-card"
+  ],
+  "author": "vandanamoriwal08",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@faker-js/faker": "^8.3.1"
+  }
+}
